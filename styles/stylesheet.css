@@ -1,0 +1,38 @@
+body    {
+    color:  darkslateblue;
+}
+h2 {
+    color: red
+}    
+ul {
+    color:chocolate
+}
+.blue-text {
+    color:blue
+}
+.important {
+    font-weight: bold;
+}
+#big-ugly-green {
+    color: green;
+    font-weight: bold;
+}
+.important:hover {
+    background-color: pink;
+}
+a[href="../portfolio/about-me.html"] {
+    background-color: aqua;
+}
+a[href="../portfolio/index.html"] {
+    background-color: goldenrod;
+}
+nav {
+    border-style: solid;
+    border-width: 5px;
+    border-color: black;
+    width: 25%;
+}
+
+p.important {
+    width: 50%;
+}
