@@ -13,6 +13,9 @@ ul {
 .important {
     font-weight: bold;
 }
+.highlight { 
+    color: darkorange;
+}
 #big-ugly-green {
     color: green;
     font-weight: bold;
@@ -20,11 +23,17 @@ ul {
 .important:hover {
     background-color: pink;
 }
-a[href="../portfolio/about-me.html"] {
+a[href="https://nsimpk.github.io/portfolio/about-me.html"] {
     background-color: aqua;
 }
-a[href="../portfolio/index.html"] {
+a[href="https://nsimpk.github.io/semantic-elements/"] {
     background-color: goldenrod;
+}
+a[href="https://nsimpk.github.io/portfolio/"] {
+    background-color: paleturquoise;
+}
+a[href="https://nsimpk.github.io/css-basics/"] {
+    background-color: salmon;
 }
 nav {
     border-style: solid;
@@ -32,7 +41,15 @@ nav {
     border-color: black;
     width: 25%;
 }
-
 p.important {
-    width: 50%;
+    width: 25%;
+}
+body a:hover {
+    color: hotpink;
+}
+p::first-letter {font-weight: bolder;
+color:blueviolet;
+}
+a:visited {
+    color: purple;
 }
