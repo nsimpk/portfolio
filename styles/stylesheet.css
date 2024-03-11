@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
-body    {
-    color:black;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body {
+    color:black
 }
 h2 {
     color:violet
@@ -84,5 +84,5 @@ li:nth-child(n+6) {
 h1:hover {
     font-family: 'Courier New', Courier, monospace;
     font-size: 300%;
-    transition: font-size 10s steps(3, jump-start) 3s; 
+    transition: font-size 10s steps(3, start) 3s; 
 }
