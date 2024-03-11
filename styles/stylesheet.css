@@ -47,6 +47,8 @@ p.important {
 }
 body a:hover {
     color: hotpink;
+    font-size: 200%;
+    transition: font-size 4s ease-out 2s;
 }
 p::first-letter {font-weight: bolder;
 color:blueviolet;
@@ -75,3 +77,12 @@ a:visited {
     font-style: normal;
     font-size: 300%;
   }
+li:nth-child(n+6) {
+    color: blue;
+    background-color: chartreuse;
+}
+h1:hover {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 300%;
+    transition: font-size 10s steps(3, jump-start) 3s; 
+}
